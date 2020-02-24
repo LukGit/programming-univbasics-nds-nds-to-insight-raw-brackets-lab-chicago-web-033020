@@ -19,7 +19,7 @@ def directors_totals(nds)
       movietot += nds[counter1][counter2][:worldwide_cross]
       counter2 += 1
     end
-    
+    result[name] = movietot
     counter1 += 1 
   end
   #
