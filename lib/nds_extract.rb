@@ -16,6 +16,7 @@ def directors_totals(nds)
     movietot = 0
     name = nds[counter1][:name]
     while counter2 < nds[counter2].length do
+      pp nds[counter1][counter2]
       movietot += nds[counter1][counter2][:worldwide_gross]
       counter2 += 1
     end
